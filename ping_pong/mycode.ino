@@ -10,7 +10,7 @@ String IP_DO_COLEGA = "192.168.1.128";
 ESP8266WebServer server(80);
 
 unsigned long ultimoTempo = 0;
-const unsigned long intervalo = 10000;
+const unsigned long intervalo = 5000; // Envia a cada 5 segundos.
 void setup() {
   Serial.begin(9600);
   
